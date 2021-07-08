@@ -1,0 +1,42 @@
+p{
+  text-indent: 1.5em;
+  margin: 0;
+}
+
+.navbar_link {
+   box-shadow: rgba(0, 0, 0, 0.589844) 0px 1px 5px, rgba(0, 0, 0, 0.0976563) 0px -1px;
+   background-size: cover;
+   background-position: center center;
+   height: 74px;
+   overflow: hidden;
+   width: 91px;
+   z-index: 1;
+   margin-left: 10px;
+   cursor: pointer;
+   display: inline-block;
+}
+
+.navbar_link:hover {
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 8px, rgba(0, 0, 0, 0.6) 0px 0px 5px;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url("http://themes.googleusercontent.com/static/fonts/oswald/v7/qpy-UiLNKP-VfOdbcs6r6-vvDin1pK8aKteLpeZ5c0A.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quattrocento'), url("http://themes.googleusercontent.com/static/fonts/quattrocento/v4/WZDISdyil4HsmirlOdBRFKRDOzjiPcYnFooOUGCOsRk.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Didact Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Didact Gothic'), local('DidactGothic'), url("http://themes.googleusercontent.com/static/fonts/didactgothic/v4/v8_72sD3DYMKyM0dn3LtWk3vq9dAc3DuCNWjMJNKvGE.woff") format('woff');
+}
